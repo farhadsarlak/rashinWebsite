@@ -1,0 +1,21 @@
+.mobileMenu{
+    display: flex!important;
+    justify-content: space-between!important;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.mobileLogo{
+    margin: 0 40px 0 0!important;
+}
+.menuIcon{
+    cursor: pointer;
+}
+
+.mobileLogo img{
+    width:70%;
+    height: 70%;
+}

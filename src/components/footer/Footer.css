@@ -1,0 +1,75 @@
+.mainFooter{
+    width: 100%;
+    display: flex;
+    transition: all 0.25s linear;
+    justify-content: space-between;
+    column-count: 4;
+    align-items: flex-start;
+    align-content: center;
+    font-size: 12px;
+    line-height: 1.5rem;
+    padding:20px 0;
+}
+
+.footerItems{
+    
+    flex:1;
+    margin: 10px 15px;
+}
+
+.nightModeFooter{
+    background-color: var(--footerBackDarkMode);
+}
+.lightModeFooter{
+    background-color: var(--footerBackLightMode);
+}
+
+.whyRashin p{
+    text-align:justify
+}
+
+.footerLastNews{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContactus{
+    line-height: 2.2rem;
+}
+.footerSlider{
+    align-self: center;
+}
+
+.footer2{
+    background-color: #333;
+    color: #fefefe;
+}
+
+.darkMode .footer2{
+    background-color: #fefefe!important;
+    color: #333!important;
+}
+
+.footerMenus{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.footerMenus li{
+    margin: 10px;
+    font-size: 11px;
+    padding: 2px 10px;
+    border-left: 1px solid #ccc;
+}
+.footerMenus li:last-child{
+    border-left: none;
+}
+
+@media screen and (max-width: 970px) {
+    .mainFooter{
+        flex-direction: column;
+    }
+}
